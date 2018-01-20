@@ -1,0 +1,74 @@
+Infsci 2725 | Assignment 1: Relational Database SQL
+
+———Goal:
+	Create relations to store data
+		normalize relations
+		employ foreign key constraints on necessary columns
+
+	load data into relations 
+
+	perform queries to answer questions
+
+
+——-Deliverables:
+
+	describe the schemas of your relations(CREATE statements)
+
+	explain your data import strategy (python library/csv importer/shell command/etc)
+
+	queries / answers to my questions (answer first query after)
+
+
+
+	Remember you may not need all the columns so you may choose to build a model that will be the minimal to answer the questions.
+	Automation is always the goal.
+	There is a deadline ;)
+
+————————————questions——————————————————————
+
+1 
+	a)how many players are inducted into the hall of fame?
+	b)how many distinct players in the batting data set are in the hall of fame?
+		
+2
+	a)what player has exactly 3000 hits total for his career?
+	b)what year was he inducted into the hall of fame?
+
+3
+	what player had the highest number of homeruns in 1919?
+
+4
+	what team has had the most hits after the year 2000, how many?
+
+
+5
+	a)what player has the most cumulative hits?
+	b)how many does he have?
+	c)is he in the hall of fame?
+	d)how many votes has he received total?
+
+
+6
+	a)what 3 players have the highest number of cumulative strikeouts over their career that have been inducted into the hall of fame?
+	b)how many total strikeouts do they each have?
+
+
+7
+	a)what 3 players have the highest cumulative total number of homeruns and have been inducted into the hall of fame?
+	b)what 3 players have the highest cumulative total number of homeruns and have NOT been inducted into the hall of fame?
+
+
+8
+	what player had the highest batting average from 1930 to 1940 (inclusively) with a cumulative total of hits over 1800 and
+	has NOT been elected into the hall of fame? batting average = hits/atbats
+
+9
+	what player averaged the highest number of walks from 1900-1920 (inclusively) with over 500 atbats?
+
+10
+	write a query that uses a non equi join and explain what you are doing.
+
+11
+	write a query that uses an OUTER Join and explain what you are doing.
+
+

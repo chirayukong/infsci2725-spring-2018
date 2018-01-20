@@ -1,0 +1,13 @@
+link to get mySQL download ALL OS
+https://dev.mysql.com/downloads/mysql/
+
+mySQL workbench download installer link
+https://dev.mysql.com/downloads/workbench/
+
+mySQL python library install tutorial link 
+http://www.tutorialspoint.com/python/python_database_access.htm
+
+
+
+
+
