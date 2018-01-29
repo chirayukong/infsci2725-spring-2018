@@ -39,7 +39,7 @@
     </p>
     <p>
       Users were selected at random for inclusion.  All users selected had rated 
-      at least 20 movies.  Unlike previous MovieLens data sets, no demographic 
+      at least 20 movies.  No demographic
       information is included.  Each user is represented by an id, and no other 
       information is provided.
     </p>
@@ -256,52 +256,7 @@
 	  <li>Western</li>
     </ul>
 
-    <h2>
-      Cross-Validation Subset Generation Scripts
-    </h2>
-    <p>
-      A Unix shell script, <code>split_ratings.sh</code>, is provided that, if desired, 
-      can be used to split the ratings data for five-fold cross-validation
-      of rating predictions.  It depends on a second script, allbut.pl, which 
-      is also included and is written in Perl.  They should run without modification
-      under Linux, Mac OS X, Cygwin or other Unix like systems.
-    </p>
-    <p>
-      Running <code>split_ratings.sh</code> will use <code>ratings.dat</code>
-      as input, and produce the fourteen output files described below.  Multiple
-      runs of the script will produce identical results.
-    </p>
-    <table style="width:75%" border="1">
-      <tr>
-        <th style="width:25%">File Names</th>
-        <th>Description</th>
-      </tr>
-      <tr>
-        <td>
-          r1.train, r2.train, r3.train, r4.train, r5.train<br/>
-          r1.test, r2.test, r3.test, r4.test, r5.test<br/>
-         </td>
-         <td>
-           The data sets r1.train and r1.test through r5.train and r5.test
-           are 80%/20% splits of the ratings data into training and test data.
-           Each of r1, ..., r5 have disjoint test sets; this if for
-           5 fold cross validation (where you repeat your experiment
-           with each training and test set and average the results).
-        </td>
-      </tr>
-      <tr>
-        <td>
-          ra.train, rb.train<br/>
-          ra.test, rb.test<br/>
-         </td>
-        <td>
-          The data sets ra.train, ra.test, rb.train, and rb.test
-          split the ratings data into a training set and a test set with
-          exactly 10 ratings per user in the test set.  The sets
-          ra.test and rb.test are disjoint.
-         </td>
-      </tr>
-    </table>
+
     <p style="text-align:right">
       <a href="http://validator.w3.org/check?uri=referer">
         <img style="border:0;width:88px;height:31px"

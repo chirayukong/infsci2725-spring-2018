@@ -1,7 +1,7 @@
 ﻿Infsci 2725 | Assignment 2: MongoDB
 
 
-MongoDB (help link: http://www.mongodb.org/display/DOCS/Home)
+MongoDB (help link: https://docs.mongodb.com/)
 
 We have provided a data set which consists of 10 million ratings and 100,000 tag applications applied to 10,000 movies by 72,000 users.
 
@@ -26,15 +26,17 @@ Questions:
 
 5)What is the highest avg rating possible?
 
-5) Write 3 different queries of your choice to demonstrate that your data storage is working. 
+6) Write 3 different queries of your choice to demonstrate that your data storage is working.
 
 
 Hints:
 
+Find "Install MongoDB Community Edition" and follow the instructions for your OS
+
 The readme file contains a description of the data files.
 
-In each of the case, you will need to write a program in a programming language of your choice (one that is, of course, supported by the system). 
-For your information, Java and Python are supported by both of the systems.
+In each of the case, you will need to write a program in a programming language of your choice (one that is, of course, supported by your OS).
+For your information, Java and Python are supported by most of the OSs.
 
 If you cannot answer one of the 3 specific queries, please write the reasons why you cannot do that. Maybe it is the limit of the data model or data store or query functionality.
 
